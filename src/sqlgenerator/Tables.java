@@ -1,0 +1,29 @@
+package sqlgenerator;
+
+public enum Tables {
+	STUDENTS_LIST,
+	EXAMINATION;
+}
+
+enum StudentsList{
+	CLASS_NUMBER,
+	NAME,
+	FURIGANA,
+	GENDER,
+	CLUB
+}
+
+enum Examination {
+	EXAM_NAME,
+	DATE,
+	DAYS,
+	CLASS_NUMBER,
+	STUDENT_NAME,
+	ATTENDANCE,
+	AVERAGE,
+	NATIONAL_LANGUAGE,
+	MATH,
+	SOCIAL_STUDIES,
+	SCIENCE,
+	ENGLISH
+}
